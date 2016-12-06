@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.josep.josepferrus.Main2Activity">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tabla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/barra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/any"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Año"
+                android:textSize="24sp"
+                android:textColor="#28E21A" />
+
+            <TextView
+                android:id="@+id/ciutat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:text="Ciudad"
+                android:textSize="24sp"
+                android:textColor="#28E21A"
+                />
+
+            <TextView
+                android:id="@+id/or"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Oro"
+                android:textSize="24sp"
+                android:textColor="#28E21A" />
+
+            <TextView
+                android:id="@+id/plata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Plata"
+                android:textSize="24sp"
+                android:textColor="#28E21A" />
+
+            <TextView
+                android:id="@+id/bronce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Bronce"
+                android:textSize="24sp"
+                android:textColor="#28E21A" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/linia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/any1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1900"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ciutat1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="París"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/or1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/linea2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/any2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1976"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ciutat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Montreal"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/plata2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/linea3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/any3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1992"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ciutat3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Barcelona"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/or3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="13"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/plata3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="7"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/bronce3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/linea4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/any4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="2012"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ciutat4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Londres"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/Or4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/plata4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="10"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/bronce4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:gravity="center"
+                android:text="Total"
+                android:textColor="#1AA0E2"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/totalOr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="17"
+                android:textColor="#1AA0E2"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/totalPlata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="19"
+                android:textColor="#1AA0E2"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/totalBronce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="#1AA0E2"
+                android:textSize="24sp" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
